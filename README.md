@@ -2,7 +2,7 @@
 
 ## Структура проекта
 ``` 
-django.hw/
+django_hw/
 ├── catalog/                          # Основное приложение магазина
 │   ├── migrations/                   # Миграции базы данных
 │   ├── templates/catalog/            # Шаблоны приложения
@@ -29,7 +29,6 @@ django.hw/
 │   └── js/
 │       └── bootstrap.bundle.min.js   # Bootstrap JS
 │
-├── db.sqlite3                        # База данных SQLite
 ├── manage.py                         # Управление проектом
 ├── poetry.lock                       # Фиксированные зависимости Poetry
 ├── pyproject.toml                    # Конфигурация Poetry и зависимостей
@@ -42,7 +41,7 @@ django.hw/
 ### 1. Клонирование репозиторя
 ```
 git clone https://github.com/Aleksei-Pavlovskii/django_hw.git>
-cd django.hw
+cd django_hw
 ```
 
 ### 2. Установка зависимостей
